@@ -1,17 +1,11 @@
-function changeActive(number)
-{
-    var container = document.getElementById("navbarlist");
-    var list = container.getElementsByTagName('li')
-   // var temp = container.hasClass('active');
-    for(var i=0;i<7;i++)
-    {
-        if(i!=number)
-        list[i].className-= "active";
-    }
-    list[number].className+= "active";
-   // alert("The class which is active is ");
-/*	if ( ! $(this).hasClass('active')) {
-            $('li.active').removeClass('active');
+// Function to change active tab of navbar on page load
+function changeActive(number){
+    var i = 0;
+    $('#navbarlist>li').each(function (i){
+        if($(this).hasClass('active'))
+            $(this).removeClass('active');
+        if(++i == number)
             $(this).addClass('active');
-        }*/
+
+    });
 }

@@ -24,10 +24,12 @@
 <body data-spy="scroll" data-target=".sidebar_nav">
     <div id="navbar">
         <script type="text/javascript">
-        $("#navbar").load('navbar.html');
+        $("#navbar").load('navbar.html', function(){
+            changeActive(4);
+        });
         </script>
     </div>
-    
+
     <div class="container" style="margin-top:70px;">
         <h1 style="text-align:center;">Competitions</h1>
         <div class="row">
