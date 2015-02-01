@@ -1,4 +1,6 @@
 Team AUV, IIT Kharagpur
 =======================
 
-Our website: http://iit-kgp-auv-team.github.io/
+Respository for source code of official website of Team AUV, IIT Kharagpur
+
+Link : http://auviitkgp.github.io/
