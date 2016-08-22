@@ -189,4 +189,7 @@ bg{
   min-height: 100%;
 }
 
-
+.blockquote
+{
+  border-color: red;
+}
